@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 120px;
+    top: 0;
+    background-color: rgb(220, 153, 60);
+}
+
+nav img{
+    width: 110px;
+    margin-bottom: 20px;
+}
+nav p{
+    font-size: 100px;
+    font-family: "Black Ops One", system-ui;
+    font-size: 750%;
+    margin-left: 20px;
+    color: rgb(48, 31, 19);
+    text-shadow: -5px 5px 5px black;
+}
+
+.sticky-div{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: sticky;
+    top: 0px;
+    color: rgb(48, 31, 19);
+    background-color: rgb(220, 153, 60);
+    font-size: 16px;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 208, 118);
+    justify-content: start;
+    align-items: center;
+    color: rgb(48, 31, 19);
+    height: fit-content;
+}
+
+.p1{
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+
+}
+
+span{
+    font-weight: bolder;
+}
+
+.p2{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+.table{
+    border: 1px solid rgb(48, 31, 19);
+    padding: 50px;
+    margin: 50px;
+    margin-left: 230px;
+    margin-right:230px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+
+.htype {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 2px 2px black;
+}
+
+.types p{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.types li{
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.col1{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.col1 img{
+    border-radius: 20px;
+    height: 240px;
+    width: 240px;
+    
+}
+
+.col1 div{
+    margin-left: 50px;
+}
+
+.col1 p{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.col2{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.col2 img{
+    border-radius: 20px;
+    height: 240px;
+    width: 240px;
+    margin-left: 30px;
+    
+}
+
+.col2 div{
+    margin-left: 20px;
+}
+
+.col2 p{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.g1{
+    display: flex;
+}
+
+.g1 img{
+    border-radius: 5%;
+    margin-right: 40px;
+}
+
+.g1 img:hover{
+    transition: 1.2ms;
+    scale: 1.01;
+    box-shadow: 0px 0px 10px rgb(63, 62, 62);
+}
+
+.gallery{
+
+    width: 100%;
+    background-color: rgb(220, 153, 60);
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 19%;
+    padding-right: 19%;
+}
+#contact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-left: 19%;
+    width: 62%;
+    margin-right: 19%;
+    background-color: rgb(220, 153, 60);
+    text-align: center;
+    align-items: center;
+}
+
+label{
+    font-size: 20px;
+}
+/* .table{
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-left: 19%;
+    width: 62%;
+    margin-right: 19%;
+    background-color: rgb(220, 153, 60);
+    text-align: center;
+    align-items: center;
+  
+} */
+
+.name{
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.name input{
+    
+    margin-left: 30px;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+}
+
+.name textarea{
+    
+    margin-left: 73px;
+    border-radius: 3px;
+    height: 80px;
+    width: 300px;
+}
+
+
+button{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+ color: white;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 18px;
+        font-weight: bolder;
+        background-color: rgb(48, 31, 19);
+        text-shadow: 2px 2px 2px black;
+    
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px rgb(48, 31, 19) ;
+}
+
+footer{
+    background-color: rgb(220, 153, 60);
+    height: 200px;
+    width: 100%;
+    padding-left: 110px;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+
+footer div{
+    display: flex;
+}
+.reach{
+    display: block;
+    margin-left: 240px;
+}
+
+.link{
+    color:rgb(48, 31, 19);
+    margin-top: 14px;
+}
+.link i,p{
+    padding: 3px;
+}
+
+.pa{
+    font-size: 14px;
+    margin-left: 43px;
+}
+
+.address{
+    display: block;
+    margin-left: 200px;
+}
+
+.p:hover{
+   color: white; 
+}
+
+
+#sticky img{
+    position: fixed;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+    z-index: 1;
+    text-decoration: none;
+    align-items: center;
+    line-height: 50px;
+    color: black;
+    font-size: 30px;
+}
